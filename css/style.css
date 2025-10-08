@@ -6,3 +6,7 @@ body{
     background-color: var(--light);
     color: var(--dark);
 }
+body.dark-mode{
+    background-color: var(--dark);
+    color: var(--light);
+}
