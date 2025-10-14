@@ -9,7 +9,7 @@ edad = 23;
 console.log("Hello " + nombre);
 
 function saludar(_nombre="Mundo") {
-    alert("Hola"+_nombre);
+alert("Hola"+_nombre);
 
 }
 saludar();
