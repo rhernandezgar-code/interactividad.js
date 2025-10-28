@@ -12,12 +12,13 @@ function mouseMoved() {
     const blue =Math.floor(Math.random() * 256);
     stroke(red, green, blue);
     fill(red, green, blue, 100);
-    const size = Math.sin(frameCount * 0.01) * 50 + 50;
+    const size = Math.sin(frameCount * 0.1) * 50 + 50;
     ellipse(mouseX, mouseY, size, size);
 }
 function mouseDragged() {
-    stroke(random);
-   // fill(0, 150, 255, 100);
+    strokeWeight(10);
+    stroke(random(255), random(255), random(255));
+    fill(0, 150, 255, 100);
     ellipse(mouseX, mouseY, 100, 100);
 }
 function windowResized() {
